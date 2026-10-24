@@ -4,7 +4,7 @@
 
 The platform lets a user merge, split, compress, convert, rotate, organize, and password-protect PDF files without running a permanent server. Each request is a short-lived job. Storage, the API, and the worker are managed AWS services, and the worker runs only when an upload event arrives.
 
-The product name in the interface is cloudPDF. The same processing code runs in AWS Lambda and in a local API used for development and demonstration. The web UI follows the familiar layout of consumer PDF sites such as iLovePDF: a white page, red accent actions, and a grid of tool cards.
+The product name in the interface is cloudPDF. The same processing code runs in AWS Lambda. The web UI follows the familiar layout of consumer PDF sites such as iLovePDF: a white page, red accent actions, and a grid of tool cards.
 
 ## Architecture
 
